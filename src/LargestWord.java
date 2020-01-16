@@ -14,16 +14,6 @@ public class LargestWord {
 		for(int i=0;i<strArry.length;i++) {
 			strList.put(strArry[i], strArry[i].length());
 		}
-//		 Map.Entry<String, Integer> maxEntry = null;
-//		    for (Map.Entry<String, Integer> entry : strList.entrySet()) {
-//		        if (maxEntry == null || entry.getValue()
-//		            .compareTo(maxEntry.getValue()) > 0) {
-//		            maxEntry = entry;
-//		        }
-//		    }
-	//return maxEntry.getKey();
-//		int maxvalue = Collections.max(strList.values());
-//		int minvalue = Collections.min(strList.values());
 		
 		int max = 0;
 		String largeStr = null;
