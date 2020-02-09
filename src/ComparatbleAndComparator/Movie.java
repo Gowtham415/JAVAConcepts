@@ -37,9 +37,6 @@ public class Movie implements Comparable<Movie> {
 	public int compareTo(Movie o) {
 		return this.name.compareTo(o.name);
 	}
-	
-	
-	
 
 }
 
